@@ -1,4 +1,4 @@
-pipelineJob "SleepNumber wake up"{
+pipelineJob "SleepNumber Alarm"{
     description("Wake me up at 7:30am every weekday.")
     keepDependencies(false)
 	definition {
