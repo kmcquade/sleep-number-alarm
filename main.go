@@ -47,7 +47,7 @@ func main() {
 	}
 
 	// Set the right side of the bed to the 'WatchTV' preset position
-	bedStatus, err := siq.ControlBedPosition(beds.Beds[0].BedID, "right", PositionWatchTV)
+	bedStatus, err := siq.ControlBedPosition(beds.Beds[0].BedID, "left", PositionWatchTV)
 
 	// bedStatus, err := siq.ControlBedPosition(beds.Beds[0].BedID, "Right", siq.WatchTV)
 	if err != nil {
