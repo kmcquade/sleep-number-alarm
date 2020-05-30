@@ -1,3 +1,7 @@
+# ARCHIVED - use https://github.com/kmcquade/sleepnumber-github-actions instead
+
+That repository uses GitHub actions, which does not require the use of Jenkins
+
 # sleep-number-alarm
 
 This script will raise the Sleep Number bed to the "Watch TV" position so I can wake up without a million alarms.
